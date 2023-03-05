@@ -21,7 +21,6 @@ pub struct ElementData {
     pub attributes: AttrMap,
 }
 
-//! constructor 
 
 pub fn text(data: String) -> Node {
     Node { children: vec![], node_type: NodeType::Text(data) }
